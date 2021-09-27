@@ -1,0 +1,25 @@
+.title{
+    position: relative;
+    font-size: 30px;
+    padding: 15px;
+    font-family: cursive;
+}
+.card
+{
+border:1px solid #808080;
+border-radius: 15px;
+margin-bottom: 10px;
+border-width: 0 1px 0px 0;
+width: 400px;
+}
+
+.description{
+    font-size: 20px;
+    color: #808080;
+    padding: 15px 10px;
+}
+
+.uibutton a{
+    font-size: 20px; 
+    color: #606060;
+}

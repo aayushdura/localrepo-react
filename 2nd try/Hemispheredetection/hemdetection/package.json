@@ -1,6 +1,5 @@
 {
-  "name": "comments",
-  "author": "aayushdura",
+  "name": "hemdetection",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,9 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "css-loader": "^6.3.0",
-    "style-loader": "^3.3.0"
   }
 }
