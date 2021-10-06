@@ -1,0 +1,16 @@
+.container {
+  color: aquamarine;
+}
+.lats {
+  margin-left: 3ch;
+  margin-top: 3ch;
+  margin-bottom: 30px;
+  font-size: xx-large;
+  color: rgba(126, 97, 207, 0.795);
+}
+.pictures {
+  margin-left: 10ch;
+}
+.error {
+  color: rgb(182, 20, 20);
+}

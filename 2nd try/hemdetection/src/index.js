@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import HemisphereDisplay from "./HemisphereDisplay";
 const App = () => {
@@ -16,11 +16,23 @@ const App = () => {
     }
   );
   return (
-     
     <div>
-       
-     </div>
-    
+      <div className="container">
+        {loading ? (
+          <div className="load">"Loading ... "</div>
+        ) : (
+          <div>
+            {errorMessage ? (
+              <div className="error">{errorMessage}</div>
+            ) : (
+              <div className="lats">
+                <HemisphereDisplay latitude={latitude} />
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
   );
 };
 

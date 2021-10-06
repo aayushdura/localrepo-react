@@ -1,0 +1,7 @@
+.container{
+    position: absolute;
+    align-self: center;
+    margin-top: 20%;
+    margin-left: 30%;
+    font-size: 3rem;
+}

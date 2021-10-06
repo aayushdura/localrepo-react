@@ -1,8 +1,8 @@
  /*destructuring*/
- /*let destructarr=["aayush","dura",22];
+ let destructarr=["aayush","dura",22];
  let [firstname,surname,age]=destructarr;
  console.log(firstname);
- console.log(age);*/
+ console.log(age);
  let person={
      name: "aayush",
      age:22,

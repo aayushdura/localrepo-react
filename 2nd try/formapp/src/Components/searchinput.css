@@ -1,0 +1,19 @@
+.searchcontainer{
+    border-radius: 7px;
+    margin-top:4ch;
+    position: absolute;
+    margin-left: 50ch;
+}
+.searchbar{
+    height: 8ch;
+    width: 50ch;
+}
+.searchbar::placeholder{
+    font-size:2rem;
+    opacity:40%;
+}
+.btn{
+    height:7ch;
+    width:8ch;
+    position: absolute;
+}
